@@ -1,7 +1,7 @@
-
+import Portfolio from './portfolio/portfolio';
 function App() {
   return (
-    <div>Checking If Update Working or Not in CI CD </div>
+      <Portfolio/>
   );
 }
 
