@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import './about.scss';
 import Description from './component/description';
 import Intro from './component/intro';
