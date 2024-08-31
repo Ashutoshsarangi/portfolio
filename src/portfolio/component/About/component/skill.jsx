@@ -1,30 +1,23 @@
-
-
-
-const Skill = () =>{
-    return (
-        <>
-            <div className='skills'>
-                <h2 className='about-title'> skills </h2>
-                <p className='skill-type'> HTML 85%</p>
-                <div className='progress-bar-parent'>
-                    <div className='progress' style={{width: '85%'}}></div>
-                </div>
-                <p className='skill-type'> CSS 70%</p>
-                <div className='progress-bar-parent'>
-                    <div className='progress' style={{width: '70%'}}></div>
-                </div>
-                <p className='skill-type'> JAVASCRIPT 90%</p>
-                <div className='progress-bar-parent'>
-                    <div className='progress' style={{width: '90%'}}></div>
-                </div>
-                <p className='skill-type'> REACT 85%</p>
-                <div className='progress-bar-parent'>
-                    <div className='progress' style={{width: '85%'}}></div>
-                </div>
-            </div>
-        </>
-    );
-}
+const Skill = () => {
+  return (
+    <>
+      <div className="skills">
+        <h2 className="about-title"> skills </h2>
+        <p className="description">
+          <span className="span__types">Languages:</span> JavaScript, TypeScript{" "}
+        </p>
+        <p className="description">
+          <span className="span__types">Frameworks & Libraries:</span> React,
+          Redux tool kit, RestAPI, NodeJS, Tailwind, Ecma Script, Material UI,
+          Boostrap{" "}
+        </p>
+        <p className="description">
+          <span className="span__types">Tools & Platforms:</span> GitHub,
+          Docker, Kubernetes, Firebase and CloudFlare, Postman
+        </p>
+      </div>
+    </>
+  );
+};
 
 export default Skill;
