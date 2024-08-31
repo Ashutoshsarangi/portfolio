@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.37f5ecc3.css",
-    "main.js": "/portfolio/static/js/main.c89b6453.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.ef2497fe.css",
+    "main.js": "/portfolio/static/js/main.8974b55c.js",
     "static/media/coming-soon.jpg": "/portfolio/static/media/coming-soon.13e914d8061b935d6063.jpg",
-    "static/media/background_img.jpeg": "/portfolio/static/media/background_img.7c30f109aba9644b1136.jpeg",
-    "static/media/Ashutosh_React_6_amdocs.pdf": "/portfolio/static/media/Ashutosh_React_6_amdocs.aab26fd8f4751b5b59f4.pdf",
+    "static/media/linkedlist.png": "/portfolio/static/media/linkedlist.494aa2a0f8aebca0da7b.png",
+    "static/media/react.png": "/portfolio/static/media/react.473350063a9ed4fa2588.png",
+    "static/media/perf.png": "/portfolio/static/media/perf.2823bac98be938097a96.png",
+    "static/media/ball.png": "/portfolio/static/media/ball.764193db3a5d49586420.png",
+    "static/media/func.png": "/portfolio/static/media/func.f65e3de5b60b8cd1bfc7.png",
+    "static/media/hashmap.png": "/portfolio/static/media/hashmap.a90a9e43a7ae5bd15ea1.png",
+    "static/media/Ashutosh_Sarangi_React_8_YOE.docx.pdf": "/portfolio/static/media/Ashutosh_Sarangi_React_8_YOE.docx.520f27e9f7ed098b61d0.pdf",
     "static/media/Dp1.jpeg": "/portfolio/static/media/Dp1.0e256a15187daa7078c7.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.37f5ecc3.css.map": "/portfolio/static/css/main.37f5ecc3.css.map",
-    "main.c89b6453.js.map": "/portfolio/static/js/main.c89b6453.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.ef2497fe.css.map": "/portfolio/static/css/main.ef2497fe.css.map",
+    "main.8974b55c.js.map": "/portfolio/static/js/main.8974b55c.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f5ecc3.css",
-    "static/js/main.c89b6453.js"
+    "static/css/main.ef2497fe.css",
+    "static/js/main.8974b55c.js"
   ]
 }
