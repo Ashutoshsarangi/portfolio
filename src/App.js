@@ -1,7 +1,13 @@
-import Portfolio from './portfolio/portfolio';
+import { Outlet } from "react-router-dom";
+import Footer from "./portfolio/component/footer/footer";
+import Header from "./portfolio/component/Header/header";
 function App() {
   return (
-      <Portfolio/>
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
   );
 }
 

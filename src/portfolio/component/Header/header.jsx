@@ -1,28 +1,44 @@
+import { Link, useLocation } from "react-router-dom";
+import { FaBars, FaMixer } from "react-icons/fa";
+import "./header.css";
 
-import './header.css';
+const Header = ({ sticky, scrolledSection }) => {
+  let location = useLocation();
+  console.log(location);
+  const menu = [
+    { link: "/", name: "Home", key: "111", active: false },
+    { link: "/about", name: "About", key: "112", active: false },
+    { link: "/project", name: "Projects", key: "113", active: false },
+    { link: "/publications", name: "Publications", key: "114", active: false },
+    { link: "/contact", name: "Contact", key: "116", active: false },
+  ];
 
-const Header = ({sticky, scrolledSection}) =>{
-    
-    const menu = [
-        {link:"#home", name: 'HOME', key: '111', active: false},
-        {link:"#about", name: 'ABOUT', key: '112', active: false},
-        {link:"#resume", name: 'RESUME', key: '113', active: false},
-        {link:"#work", name: 'WORK', key: '114', active: false},
-        {link:"#testimonials", name: 'TESTIMONIALS', key: '115', active: false},
-        {link:"#contact", name: 'CONTACT', key: '116', active: false},
-    ];
-
-    
-    
-    return (
-        <header id='header' className={sticky ? 'fixed-top sticky' : 'fixed-top'}>
-            <nav id="navbar" className="navbar ">
-                {
-                    menu.map( item => <a className={(item.active || item.key === scrolledSection) ? 'nav-link active': 'nav-link'} key={item.key}href={item.link}>{item.name}</a> )
-                }
-            </nav>
-        </header>
-    );
-}
+  return (
+    <header id="header">
+      <nav id="navbar" className="navbar ">
+        <div>
+          <FaBars className="hiddenIcon" />
+          <FaMixer className="hiddenIcon" />
+          <Link to="/" className="nav__firstChild">
+            Portfolio.
+          </Link>
+        </div>
+        <div className="navLinks">
+          {menu.map((item) => (
+            <Link
+              className={`nav-link ${
+                location.pathname === item.link && "active"
+              }`}
+              key={item.key}
+              to={item.link}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;

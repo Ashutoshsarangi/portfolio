@@ -1,0 +1,66 @@
+.project-container {
+  margin-top: 20px;
+  height: 83vh;
+  padding: 0px 30px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  .project-title {
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .project-title::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 210px;
+    bottom: -12px;
+  }
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project {
+      box-shadow: 0px 2px 5px 1px #306eb8;
+      padding: 10px;
+      flex-wrap: nowrap;
+      width: 44%;
+      margin: 10px;
+      height: 295px;
+
+      .project-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.1rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .download-resume {
+    padding: 12px;
+    position: absolute;
+    left: 80%;
+    border: none;
+    text-shadow: none;
+    background-color: #137ee8;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.span__types {
+  font-size: 20px;
+  font-weight: 600;
+}
