@@ -19,6 +19,9 @@
 .nav__firstChild {
   font-size: 30px;
 }
+.nav__firstChild:hover {
+  transition: 0.3s cubic-bezier(1, 0.02, 0.05, 0.99);
+}
 
 .hiddenIcon {
   display: none;
@@ -36,6 +39,8 @@ a {
 a:active,
 a:hover {
   color: #71a7dc;
+  transform: scale(1.1);
+  transition: 0.3s cubic-bezier(1, 0.02, 0.05, 0.99);
 }
 
 .active {

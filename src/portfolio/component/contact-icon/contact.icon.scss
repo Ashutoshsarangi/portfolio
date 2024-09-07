@@ -9,6 +9,8 @@
 .icons:hover {
   color: #ffffff;
   background-color: #077bee;
+  transition: all 0.3s cubic-bezier(1, 0.02, 0.05, 0.99);
+  transform: scale(1.2);
 }
 .contact-icon {
   text-decoration: none;

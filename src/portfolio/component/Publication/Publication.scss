@@ -26,6 +26,10 @@
     text-decoration: none;
     z-index: 1;
   }
+  .read__more:hover {
+    transition: all 0.3s cubic-bezier(1, 0.02, 0.05, 0.99);
+    transform: scale(1.2);
+  }
 
   .publication-title::before {
     content: "";
